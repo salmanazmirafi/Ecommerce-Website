@@ -50,6 +50,18 @@ button.normal {
   outline: none;
   transition: 0.3s ease;
 }
+button.banar {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.3s ease;
+}
 /***** header *****/
 .header {
   display: flex;
@@ -234,7 +246,7 @@ button.normal {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("/img/banar.jpg");
+  background-image: url("/img/Untitwwled.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -255,4 +267,123 @@ button.normal {
 #banner button:hover {
   background: #088178;
   color: white;
+}
+#sm-banar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.banarImg2 {
+  background-image: url("/img/banar.jpg");
+}
+.banarImg1 {
+  background-image: url("/img/banar2.jpg");
+}
+#sm-banar .banarBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+
+  min-width: 49%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+#sm-banar h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sm-banar h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-banar span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+#sm-banar button:hover {
+  background: #088178;
+  border: 1px solid #07bbaf;
+}
+#banar3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#banar3 .banarBox3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("/img/banar3.jpg");
+  padding: 20px;
+  min-width: 32%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+#banar3 .bg-image2 {
+  background-image: url("/img/banar4.jpg");
+}
+#banar3 .bg-image4 {
+  background-image: url("/img/banar5.jpg");
+}
+#banar3 h2 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+#banar3 h3 {
+  font-size: 12px;
+  color: rgb(255, 51, 0);
+}
+#signUp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #03193a;
+}
+#signUp h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+#signUp p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #818ea0;
+}
+#signUp span {
+  color: #ffbd37;
+}
+#signUp .signFrom {
+  display: flex;
+  width: 45%;
+}
+#signUp input {
+  height: 3.12rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#signUp button {
+  background: #08887f;
+  color: white;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
