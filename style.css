@@ -109,6 +109,12 @@ button.banar {
   bottom: -4px;
   left: 20px;
 }
+#mobile {
+  display: none;
+}
+#close {
+  display: none;
+}
 /***** End header *****/
 /***** Home *****/
 #hero {
@@ -387,3 +393,243 @@ button.banar {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-bottom: 20px;
+}
+#footer .logo {
+  width: 50%;
+  margin-bottom: 20px;
+}
+#footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+#footer p {
+  font-size: 13px;
+  padding: 0 0 8px 0;
+  margin: 0;
+}
+#footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  padding-bottom: 10px;
+}
+#footer .fllow {
+  margin-top: 20px;
+}
+#footer .fllow i {
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+#footer {
+  padding-top: 90px;
+}
+#footer .fllow i:hover,
+#footer a:hover {
+  color: #088178;
+}
+#footer .copyright {
+  text-align: center;
+  width: 100%;
+}
+/***** shop *****/
+
+#pageHeader {
+  background-image: url("https://media.istockphoto.com/id/1203642900/photo/beautiful-asian-woman-shopping-online-with-mobile-phone-on-banner-background.jpg?s=170667a&w=0&k=20&c=i_eNt1zRTic-bDjnRqJOFwwQKwSPLSEIR8XGNyxDWnU=");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#pageHeader h2 {
+  color: white;
+}
+#pageHeader p {
+  color: white;
+}
+#pasination {
+  text-align: center;
+}
+
+#pasination a {
+  text-decoration: none;
+  background-color: #07a79c;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+#pasination a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/***** End shop *****/
+/***** single product *****/
+#prodetls .single-proImage {
+  width: 40%;
+  margin-right: 50px;
+}
+.smalImage {
+  display: flex;
+  justify-content: space-between;
+}
+.sImageCol {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+/***** End single product *****/
+/***** Media Query *****/
+
+@media (max-width: 799px) {
+  .sections-p1 {
+    padding: 40px 40px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+    padding: 80px 0 0px 10px;
+    transition: 0.3s ease;
+  }
+  .navbar.active {
+    right: 0px;
+  }
+  .navbar li {
+    margin-bottom: 20px;
+  }
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding: 11px;
+  }
+  #close {
+    display: flex;
+  }
+  #close {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+  #sh {
+    display: none;
+  }
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+  #future {
+    justify-content: center;
+  }
+  #future .fa-boxs {
+    margin: 15px 15px;
+  }
+  #fututeProduct .pro-container {
+    justify-content: center;
+  }
+  #fututeProduct .proProduct {
+    margin: 15px;
+  }
+  #banner {
+    height: 40vh;
+  }
+  #sm-banar .banarBox {
+    min-width: 100%;
+    height: 30vh;
+  }
+  #banar3 {
+    padding: 0 40px;
+  }
+  #banar3 .banarBox3 {
+    width: 28%;
+  }
+  #signUp .signFrom {
+    display: flex;
+    width: 70%;
+  }
+  #sm-banar .banarBox {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 477px) {
+  .sections-p1 {
+    padding: 20px;
+  }
+  .header {
+    padding: 10px 30px;
+  }
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  #future {
+    justify-content: space-between;
+  }
+  #future .fa-boxs {
+    width: 154px;
+    margin: 0px 0px 20px 0;
+  }
+  #fututeProduct .proProduct {
+    width: 100%;
+  }
+  #sm-banar .banarBox {
+    margin-top: 20px;
+  }
+  #banar3 {
+    padding: 0 20px;
+  }
+  #banar3 .banarBox3 {
+    width: 100%;
+  }
+  footer .install img {
+    width: 60%;
+  }
+  footer .row img {
+    width: 70px;
+  }
+  #signUp .signFrom {
+    width: 100%;
+  }
+  #footer p {
+    font-size: 11px;
+  }
+}
+
+/***** End Media Query *****/
