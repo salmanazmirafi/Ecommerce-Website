@@ -50,17 +50,108 @@
                 <img src="/img/product/3.jpg" width="100%" class="smll-img" alt="">
             </div>
             <div class="sImageCol">
-                <img src="/img/product/3.jpg" width="100%" class="smll-img" alt="">
+                <img src="/img/product/4.jpg" width="100%" class="smll-img" alt="">
             </div>
             <div class="sImageCol">
                 <img src="/img/product/5.jpg" width="100%" class="smll-img" alt="">
             </div>
         </div>
     </div>
-    <div class="productD">
-        
+    <div class="singleProD">
+        <h6>Home/T-shirt</h6>
+        <h4>Man's Fashion T Shirt</h4>
+        <h2>$139.00</h2>
+        <select>
+          <option value="">Select Size</option>
+          <option value="">XL</option>
+          <option value="">XXL</option>
+          <option value="">Small</option>
+          <option value="">Large</option>
+        </select>
+        <input type="number" value="1"/>
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
     </div>
 </div>
+
+<section id="fututeProduct" class="sections-p1">
+  <h2>Featured Products</h2>
+  <p>Featured Collection New Morden Design</p>
+  <div class="pro-container">
+    <!-- product -->
+    <div class="proProduct">
+      <img src="/img//product/w8.jpg" alt="T-Shirt">
+      <div class="des">
+        <span>jacket</span>
+        <h5>Casual Jacket</h5>
+        <div class="reviw">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <h4>$78</h4>
+      </div>
+      <a href="#"><i class="fa fa-cart-shopping card"></i></a>
+    </div>
+     <!-- product -->
+     <div class="proProduct">
+      <img src="/img//product/w1.jpg" alt="T-Shirt">
+      <div class="des">
+        <span>jacket</span>
+        <h5>Casual Jacket</h5>
+        <div class="reviw">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <h4>$78</h4>
+      </div>
+      <a href="#"><i class="fa fa-cart-shopping card"></i></a>
+    </div>
+     <!-- product -->
+     <div class="proProduct">
+      <img src="/img//product/w2.jpg" alt="T-Shirt">
+      <div class="des">
+        <span>jacket</span>
+        <h5>Casual Jacket</h5>
+        <div class="reviw">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <h4>$78</h4>
+      </div>
+      <a href="#"><i class="fa fa-cart-shopping card"></i></a>
+    </div>
+     <!-- product -->
+     <div class="proProduct">
+      <img src="/img//product/w3.jpg" alt="T-Shirt">
+      <div class="des">
+        <span>jacket</span>
+        <h5>Casual Jacket</h5>
+        <div class="reviw">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <h4>$78</h4>
+      </div>
+      <a href="#"><i class="fa fa-cart-shopping card"></i></a>
+    </div>
+     <!-- product -->
+     
+  </div>
+</section>
+
 
 <section id="signUp" class="sections-p1">
   <div class="newText">
@@ -121,7 +212,28 @@
     <p>&copy; 2022 Salman Azmi Rafi - HTML CSS Ecommerce Tamplate</p>
   </div>
 </footer>
-    
+
+
+    <script>
+      var Maining = document.getElementById('mainImage')
+      var smallImg = document.getElementsByClassName('smll-img')
+     
+      smallImg[0].onclick= function () {
+        Maining.src = smallImg[0].src;
+      }
+      smallImg[1].onclick= function () {
+        Maining.src = smallImg[1].src;
+      }
+      smallImg[2].onclick= function () {
+        Maining.src = smallImg[2].src;
+      }
+      smallImg[3].onclick= function () {
+        Maining.src = smallImg[3].src;
+      }
+
+
+
+    </script>
     <script src="script.js"></script>
   </body>
 </html>

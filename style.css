@@ -493,8 +493,156 @@ footer .col {
   flex-basis: 24%;
   cursor: pointer;
 }
+#prodetls {
+  display: flex;
+  margin-top: 20px;
+}
+#prodetls .singleProD {
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetls .singleProD h4 {
+  padding: 40px 0 20px 0;
+}
+#prodetls .singleProD h2 {
+  font-size: 26px;
+}
 
+#prodetls .singleProD select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+#prodetls .singleProD input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+}
+#prodetls .singleProD button {
+  background: #07a79c;
+  color: #fff;
+}
+#prodetls .singleProD p {
+  line-height: 25px;
+}
+/***** blog *****/
+
+#blogpageHeader {
+  background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#blogpageHeader h2 {
+  color: white;
+}
+#blogpageHeader p {
+  color: white;
+}
+#blogpageHeader {
+  text-align: center;
+}
+#blog {
+  padding: 150px 150px 0 150px;
+}
+#blog .blogBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: 90px;
+}
+#blog .blog-image {
+  width: 50%;
+  margin-right: 14px;
+}
+#blog img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+#blog .blog-desc {
+  width: 50%;
+  margin-left: 14px;
+}
+#blog .blog-desc a {
+  text-decoration: none;
+  font-size: 11px;
+  color: black;
+  font-weight: 700;
+  position: relative;
+  transition: 0.3s ease;
+}
+#blog .blog-desc a::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 6px;
+  right: -55px;
+}
+#blog .blog-desc a:hover {
+  color: #07a79c;
+}
+#blog .blog-desc a:hover:after {
+  background-color: #07a79c;
+}
+#blog .blogBox h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 78px;
+  font-weight: 700;
+  color: #c9cbca;
+  z-index: -9;
+}
+/***** End blog *****/
 /***** End single product *****/
+
+/***** About Section *****/
+#about {
+  background-image: url("https://thumbs.dreamstime.com/b/tree-grow-up-book-light-shining-as-getting-knowledge-black-background-concept-opening-paper-will-see-world-99985550.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#about h2 {
+  color: white;
+}
+#about p {
+  color: white;
+}
+#aboutHead {
+  display: flex;
+  align-items: center;
+}
+#aboutHead img {
+  width: 50%;
+  height: auto;
+}
+#aboutApp {
+  text-align: center;
+}
+#aboutApp img {
+  width: 100%;
+}
+/***** End About Section *****/
+
 /***** Media Query *****/
 
 @media (max-width: 799px) {
@@ -629,6 +777,35 @@ footer .col {
   }
   #footer p {
     font-size: 11px;
+  }
+  #prodetls {
+    display: flex;
+    flex-direction: column;
+  }
+  #prodetls .single-proImage {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #prodetls .singleProD {
+    width: 100%;
+    padding-top: 30px;
+  }
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  #blog .blogBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #blog .blog-image {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  #blog .blog-desc {
+    width: 100%;
+    margin-left: 0px;
   }
 }
 
