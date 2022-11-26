@@ -639,10 +639,242 @@ footer .col {
   text-align: center;
 }
 #aboutApp img {
-  width: 100%;
+  width: 50%;
 }
 /***** End About Section *****/
+/***** Contact Section *****/
 
+#contactHeader {
+  background-image: url("https://www.resourcesgroups.com/wp-content/uploads/2021/04/Shayona-Banner-Page-Banner-Contact-us.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#contactHeader h2 {
+  color: white;
+}
+#contactHeader p {
+  color: white;
+}
+#contactDs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contactDs .detals {
+  width: 40%;
+}
+#contactDs .detals span,
+#formDetals form span {
+  font-size: 12px;
+}
+#contactDs .detals h2,
+#formDetals form h2 {
+  font-size: 25px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+#contactDs .detals h3 {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+#contactDs .detals li {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+#contactDs .detals li i {
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+#contactDs .detals li p {
+  margin: 0;
+  font-size: 14px;
+}
+#contactDs .googleMap {
+  width: 55%;
+  height: 400px;
+}
+#contactDs .googleMap iframe {
+  width: 100%;
+  height: 100%;
+}
+#formDetals {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid rgb(219, 219, 219);
+}
+#formDetals form {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+#formDetals form input {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #1a1a1a;
+}
+#formDetals form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #1a1a1a;
+}
+#formDetals form button {
+  background-color: #07a79c;
+  color: white;
+}
+.pepole img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 7px;
+  border-radius: 50%;
+}
+.pepole div {
+  padding-bottom: 17px;
+  display: flex;
+  align-items: flex-start;
+}
+.pepole div p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+.pepole div p span {
+  display: block;
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+/***** ShopIng Curt *****/
+#cardPage {
+  background-image: url("https://www.resourcesgroups.com/wp-content/uploads/2021/04/Shayona-Banner-Page-Banner-Contact-us.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+#cardPage h2 {
+  color: white;
+}
+#cardPage p {
+  color: white;
+}
+#cart {
+  overflow-x: auto;
+}
+#cart table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+#cart table img {
+  width: 70px;
+}
+#cart table td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+#cart table td:nth-child(2) {
+  width: 150px;
+  text-align: center;
+}
+#cart table td:nth-child(3) {
+  width: 250px;
+  text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+  width: 150px;
+  text-align: center;
+}
+#cart table td:nth-child(5) input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+  outline: none;
+}
+#cart table thead {
+  border: 1px solid #cecece;
+  border-left: none;
+  border-right: none;
+}
+#cart table thead td {
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 13px;
+}
+#cart table tbody td {
+  padding-top: 20px;
+  font-size: 13px;
+}
+#car-add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#coupon {
+  width: 50%;
+  margin-bottom: 30px;
+}
+#coupon h3,
+#subtotal h3 {
+  padding-bottom: 15px;
+}
+#coupon input {
+  padding: 10px 20px;
+  outline: none;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #d1d1d1;
+}
+#coupon button {
+  background-color: #07a79c;
+  color: white;
+  padding: 10px 20px;
+}
+#subtotal {
+  width: 50%;
+  margin-bottom: 30px;
+  border: 1px solid #d1d1d1;
+  padding: 30px;
+}
+#subtotal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#subtotal table td {
+  width: 50%;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+  font-size: 13px;
+}
+#subtotal button {
+  background-color: #07a79c;
+  color: white;
+}
+/***** End ShopIng Curt *****/
 /***** Media Query *****/
 
 @media (max-width: 799px) {
@@ -729,6 +961,16 @@ footer .col {
   #sm-banar .banarBox {
     margin-top: 20px;
   }
+  #formDetals form {
+    width: 50%;
+  }
+  #formDetals {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid rgb(219, 219, 219);
+  }
 }
 @media (max-width: 477px) {
   .sections-p1 {
@@ -807,6 +1049,57 @@ footer .col {
     width: 100%;
     margin-left: 0px;
   }
+  #aboutHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #aboutHead img {
+    width: 100%;
+    height: auto;
+  }
+  #contactDs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #contactDs .detals {
+    width: 100%;
+  }
+  #contactDs .googleMap {
+    width: 100%;
+    height: 400px;
+  }
+  #formDetals {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+  }
+  #formDetals form {
+    width: 100%;
+  }
+  #car-add {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #coupon {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #subtotal {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #d1d1d1;
+    padding: 30px;
+  }
+  #coupon input {
+   
+    width: 76%;
+   
 }
-
 /***** End Media Query *****/
